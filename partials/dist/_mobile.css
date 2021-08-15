@@ -1,0 +1,75 @@
+@media only screen and (max-width: 766px) {
+  .menu-btn {
+    display: block;
+  }
+
+  .navbar {
+    padding: 0;
+    z-index: 1;
+  }
+  .navbar .nav-links li {
+    margin: 30px auto;
+    text-transform: uppercase;
+  }
+  .navbar .logo {
+    position: absolute;
+    width: 35px;
+    top: 30px;
+    left: 30px;
+  }
+  .navbar .nav-links {
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    background-image: url(../img/bgWine.png);
+    border-radius: 3px;
+    background-size: cover;
+    margin-top: -900px;
+    transition: all 0.5s ease;
+  }
+  .navbar .mobile-menu {
+    margin-top: 0;
+    border-bottom-right-radius: 30%;
+  }
+
+  /* Events */
+  .row {
+    flex-direction: column;
+  }
+
+  .row .col {
+    margin: 20px auto;
+  }
+  .row .col h4 {
+    font-size: 6vmin;
+  }
+  .row .col p {
+    font-size: 5vmin;
+  }
+
+  .col img {
+    max-width: 90%;
+  }
+
+  .explore-content {
+    width: 100%;
+  }
+
+  .tours .col {
+    width: 100%;
+  }
+
+  .image-gallery {
+    justify-content: center;
+    align-items: center;
+  }
+  .image-gallery img {
+    width: 90%;
+  }
+
+  .title {
+    font-size: 6vmin;
+    font-weight: 200;
+  }
+}
